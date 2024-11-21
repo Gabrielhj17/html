@@ -1,0 +1,265 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+}
+
+/* Header styling */
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header h2 {
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #1abc9c;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 40px;
+}
+
+section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+section p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+ul, ol {
+  margin-left: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 5px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="url"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+form input[type="submit"] {
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.1em;
+  border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #1abc9c;
+}
+
+footer {
+  text-align: center;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #1abc9c;
+}
+
+footer address {
+  font-style: normal;
+  margin-top: 10px;
+}
+
+/* Button styling */
+button {
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #1abc9c;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+table th {
+  background-color: #f1f1f1;
+}
+
+/* Progress and meter styling */
+progress, meter {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+/* Small and inline text styles */
+small {
+  font-size: 0.85em;
+  color: #888;
+}
+
+s {
+  color: #888;
+  text-decoration: line-through;
+}
+
+span {
+  font-size: 1em;
+}
+
+abbr {
+  text-decoration: underline dotted;
+}
+
+sub {
+  font-size: 0.8em;
+}
+
+sup {
+  font-size: 0.8em;
+}
+
+var {
+  font-style: italic;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  header h2 {
+    font-size: 1em;
+  }
+
+  header nav ul {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  header nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section h1 {
+    font-size: 1.6em;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  footer ul li {
+    display: block;
+    margin: 5px 0;
+  }
+}
